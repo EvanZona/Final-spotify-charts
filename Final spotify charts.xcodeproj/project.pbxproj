@@ -13,6 +13,7 @@
 		3F65125027F4AF8A00FBDAAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F65124F27F4AF8A00FBDAAC /* Preview Assets.xcassets */; };
 		3F65125B27F4AF8B00FBDAAC /* Final_spotify_chartsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F65125A27F4AF8B00FBDAAC /* Final_spotify_chartsTests.swift */; };
 		3F65126627F4AF8B00FBDAAC /* Final_spotify_chartsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F65126527F4AF8B00FBDAAC /* Final_spotify_chartsUITests.swift */; };
+		3F6512762804883700FBDAAC /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6512752804883700FBDAAC /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		3F65126127F4AF8B00FBDAAC /* Final spotify chartsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final spotify chartsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F65126527F4AF8B00FBDAAC /* Final_spotify_chartsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_spotify_chartsUITests.swift; sourceTree = "<group>"; };
 		3F65126727F4AF8B00FBDAAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F6512752804883700FBDAAC /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				3F65124827F4AF8300FBDAAC /* Final_spotify_chartsApp.swift */,
 				3F65124A27F4AF8300FBDAAC /* ContentView.swift */,
 				3F65124C27F4AF8A00FBDAAC /* Assets.xcassets */,
+				3F6512752804883700FBDAAC /* SwiftyJSON.swift */,
 				3F65125127F4AF8A00FBDAAC /* Info.plist */,
 				3F65124E27F4AF8A00FBDAAC /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F6512762804883700FBDAAC /* SwiftyJSON.swift in Sources */,
 				3F65124B27F4AF8300FBDAAC /* ContentView.swift in Sources */,
 				3F65124927F4AF8300FBDAAC /* Final_spotify_chartsApp.swift in Sources */,
 			);
