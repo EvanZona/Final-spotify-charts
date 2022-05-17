@@ -34,12 +34,15 @@ struct ContentView: View {
             if let data = try? Data(contentsOf: url) {
                 let json = try! JSON(data: data)
                 let albums = json["albums"].dictionaryValue
-                let items = albums["items"].arrayValue
-                let 
-                for item in items {
-                    let uri: Dictionary<String, JSON> = json["uri"].dictionaryValue
-                    let song = Song(uri: uri)
-                    songs.append(song)
+                let items = albums["items"]!.arrayValue
+                        for item in items {
+                            let info = item["data"].dictionaryValue
+                            let artists = info["artists"]?.dictionaryValue
+                            let stuffs = artists!["items"]!.arrayValue
+                            for stuff in stuffs {
+                                let artist = stuff["uri"].stringValue
+                            }
+                           //songs.append(song)
                 }
             }
         }
